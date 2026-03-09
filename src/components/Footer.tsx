@@ -134,16 +134,8 @@ export const Footer = ({ setView }: { setView?: (view: ViewType) => void }) => {
             <img 
               src={Logo} 
               alt="Company Logo" 
-              className="h-10 sm:h-12 w-auto object-contain" 
+              className="h-20 sm:h-24 w-auto object-contain" 
             />
-            <div className="flex flex-col leading-none text-left">
-              <span className="text-lg sm:text-xl font-bold tracking-tighter text-gold-gradient uppercase">
-                Axiom
-              </span>
-              <span className="text-[9px] sm:text-[10px] font-bold tracking-[0.2em] text-white/40 uppercase mt-1">
-                Global FX
-              </span>
-            </div>
           </div>
 
           {/* App Buttons */}

@@ -137,7 +137,7 @@ export const Navbar = ({ setView }: { setView: (view: ViewType) => void }) => {
             <img 
               src={Logo} 
               alt="Company Logo" 
-              className="h-10 sm:h-12 lg:h-15 w-auto object-contain flex-shrink-0 group-hover:scale-105 transition-transform" 
+              className="h-18 sm:h-20 lg:h-15 w-auto object-contain flex-shrink-0 group-hover:scale-105 transition-transform" 
             />
           </button>
 
