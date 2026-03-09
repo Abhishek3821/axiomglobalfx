@@ -82,9 +82,7 @@ export const Footer = ({ setView }: { setView?: (view: ViewType) => void }) => {
               icon={<Twitter />} 
               href="https://x.com/axiomglobalfx" 
             />
-            {/* Kept YouTube and LinkedIn as placeholders just in case you need them later */}
-            <SocialIcon icon={<Youtube />} href="#" />
-            <SocialIcon icon={<Linkedin />} href="#" />
+          
           </div>
         </div>
 
